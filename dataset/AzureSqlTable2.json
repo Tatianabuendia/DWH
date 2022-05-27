@@ -1,0 +1,62 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Source_banmarket",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Detalle Orden",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Numero Orden",
+				"type": "varchar"
+			},
+			{
+				"name": "Producto ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Linea Total",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Cantidad",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Descuento",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Precio Unitario",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Ganancia",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "region_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "maestria",
+			"table": "LT_detalle_ordenes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

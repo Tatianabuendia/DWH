@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_b9a",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "stagin_gfiles",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "gitHub",
+				"container": "prueba"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

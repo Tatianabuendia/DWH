@@ -1,0 +1,9 @@
+{
+	"name": "GR20201-EAN",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "19eff772-6cf4-429f-a8e1-8ee5f10b951c",
+		"tenantId": "c06fb559-1b68-4b84-a14f-47d0d837a5ab"
+	}
+}
